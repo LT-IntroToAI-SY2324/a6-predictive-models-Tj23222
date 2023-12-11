@@ -5,7 +5,7 @@ After completing `a6_part4.py` answer the following questions
 ## Questions to answer
 
 1. Comment out the StandardScaler and re-run your test. How accurate is the model? Why is that?
-
+The accuracy is much lower Due to the lack of realism the program now has since he standard scaler is much more realstic 
 2. How accurate is the model with the StandardScaler? Is this model accurate enough for the given use case? Explain.
 
 3. Looking at the predicted and actual results, how did the model do? Was there a pattern to the inputs that the model was incorrect about?
