@@ -40,3 +40,7 @@ for index in range(len(xtest)):
     predicted_y = predict[index] # gets the predicted y value from the predict variable
     x_coord = xtest[index] # gets the x value from the xtest dataset
     print(f"miles: {x_coord[0]} age: {x_coord[1]} Actual: {actual} Predicted: {predicted_y}")
+
+    mymy_cars = [[89000, 10], [150, 20]]
+my_predicitons = model.predict(my_cars)
+print(my_predicitons)
