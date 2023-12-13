@@ -13,11 +13,13 @@ data = pd.read_csv("part4-classification/iris_data.csv")
 data['Species'].replace(['Iris-setosa','Iris-virginica', 'Iris-versicolor'],[0,1,2],inplace=True)
 x = data[["SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm"]].values
 y = data["Species"].values
+print(y)
 
 #Standardizes the x values
 scaler = StandardScaler().fit(x)
+print(scaler)
 x = scaler.transform(x)
-
+print(x)
 #Splits the data into a training and testing set
 x_train, x_test, y_train, y_test = train_test_split(x, y)
 
@@ -32,7 +34,9 @@ print("")
 print(y_test)
 for index in range(len(x_test)):
     x = x_test[index]
+    print(x)
     x = x.reshape(-1, 4)
+    print(x)
     y_pred = int(model.predict(x))
 
     if y_pred == 0:
