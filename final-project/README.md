@@ -16,4 +16,5 @@ Throughout this module, you have learned how to program both supervised and unsu
 - Real world implications
 
 I choose to do The Alcohol Intake Average of the people only in america
-
+Im able to predict he futures years intake now and track the old data
+I have two resuls The train data and then a predicted plot point on a graph
