@@ -15,3 +15,5 @@ Throughout this module, you have learned how to program both supervised and unsu
 - A summary of the accuracy of your model
 - Real world implications
 
+I choose to do The Alcohol Intake Average of the people only in america
+
