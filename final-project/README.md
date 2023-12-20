@@ -15,6 +15,8 @@ Throughout this module, you have learned how to program both supervised and unsu
 - A summary of the accuracy of your model
 - Real world implications
 
-I choose to do The Alcohol Intake Average of the people only in america
-Im able to predict he futures years intake now and track the old data
-I have two resuls The train data and then a predicted plot point on a graph
+1.I have chosen to do The Alcohol Intake Average of the people only in america
+
+2.Im able to predict the futures years intake now and track the old data this is good for real world situations to help predic other data like drunk driving and how much money a year we spend  On alcohol in america.
+3.I have two resuls The train data and then a predicted plot point on a graph, The train data is best for predictions of furthers years and the graph just gives us a good visual design.
+4.Im able to predict that in 2030 we will consume 8.7 literes on avg
